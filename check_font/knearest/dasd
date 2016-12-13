@@ -1,0 +1,82 @@
+Help on ml_KNearest object:
+
+class mmll__KKNNeeaarreesstt(ml_StatModel)
+ |  Method resolution order:
+ |      ml_KNearest
+ |      ml_StatModel
+ |      Algorithm
+ |      __builtin__.object
+ |  
+ |  Methods defined here:
+ |  
+ |  ____rreepprr____(...)
+ |      x.__repr__() <==> repr(x)
+ |  
+ |  ffiinnddNNeeaarreesstt(...)
+ |      findNearest(samples, k[, results[, neighborResponses[, dist]]]) -> retval, results, neighborResponses, dist
+ |  
+ |  ggeettAAllggoorriitthhmmTTyyppee(...)
+ |      getAlgorithmType() -> retval
+ |  
+ |  ggeettDDeeffaauullttKK(...)
+ |      getDefaultK() -> retval
+ |  
+ |  ggeettEEmmaaxx(...)
+ |      getEmax() -> retval
+ |  
+ |  ggeettIIssCCllaassssiiffiieerr(...)
+ |      getIsClassifier() -> retval
+ |  
+ |  sseettAAllggoorriitthhmmTTyyppee(...)
+ |      setAlgorithmType(val) -> None
+ |  
+ |  sseettDDeeffaauullttKK(...)
+ |      setDefaultK(val) -> None
+ |  
+ |  sseettEEmmaaxx(...)
+ |      setEmax(val) -> None
+ |  
+ |  sseettIIssCCllaassssiiffiieerr(...)
+ |      setIsClassifier(val) -> None
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data and other attributes defined here:
+ |  
+ |  ____nneeww____ = <built-in method __new__ of type object>
+ |      T.__new__(S, ...) -> a new object with type S, a subtype of T
+ |  
+ |  ----------------------------------------------------------------------
+ |  Methods inherited from ml_StatModel:
+ |  
+ |  ccaallccEErrrroorr(...)
+ |      calcError(data, test[, resp]) -> retval, resp
+ |  
+ |  eemmppttyy(...)
+ |      empty() -> retval
+ |  
+ |  ggeettVVaarrCCoouunntt(...)
+ |      getVarCount() -> retval
+ |  
+ |  iissCCllaassssiiffiieerr(...)
+ |      isClassifier() -> retval
+ |  
+ |  iissTTrraaiinneedd(...)
+ |      isTrained() -> retval
+ |  
+ |  pprreeddiicctt(...)
+ |      predict(samples[, results[, flags]]) -> retval, results
+ |  
+ |  ttrraaiinn(...)
+ |      train(trainData[, flags]) -> retval  or  train(samples, layout, responses) -> retval
+ |  
+ |  ----------------------------------------------------------------------
+ |  Methods inherited from Algorithm:
+ |  
+ |  cclleeaarr(...)
+ |      clear() -> None
+ |  
+ |  ggeettDDeeffaauullttNNaammee(...)
+ |      getDefaultName() -> retval
+ |  
+ |  ssaavvee(...)
+ |      save(filename) -> None
